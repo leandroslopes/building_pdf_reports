@@ -1,0 +1,42 @@
+<div id="report">
+  
+  <h4 class="page_title">{{ c.title }}</h4> <br />
+	
+  <button type="button" name="button-generate-pdf" ng-click="c.generate_pdf()">Generate PDF</button>
+  
+  <div class="page-header">
+    <div class="table-header flex">
+      <div class="logo flex-1">
+        <!--img src="https://fakeimg.pl/50x50/282828/eae0d0/?retina=1"/-->
+        <img src="logo_sn.png" width="110" height="110"/>
+      </div>
+      <div class="title flex-2">
+        <div class="flex">
+        	<div class="font-bold left">Incident Report</div>
+        </div>
+        <div class="flex">
+        	<div class="flex-1 left"><strong>Issue:</strong> {{ c.issue_date }} {{ c.issue_hour }}</div>
+        </div>
+        <div class="flex">
+        	<div class="flex-1 left"><strong>Page:</strong> <span class="current-page-number"></span> de <span class="current-page-number"></span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="page-body">
+    <table class="table-data" width="100%">
+	  	<thead>
+        <tr>
+          <th ng-repeat="label in c.incident_label_fields">{{ label }}</th>
+        </tr>
+      </thead>
+    	<tbody>
+        <tr ng-repeat="incident in c.incidents">
+          <td ng-repeat="property in incident">{{ property }}</td>
+        </tr>
+      </tbody>
+		</table>
+  </div>
+  
+</div>

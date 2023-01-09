@@ -1,0 +1,106 @@
+.page_title {
+	border-bottom: 1px solid #000;
+	padding-bottom: 5px;
+  font-weight: 600;
+}
+
+.page-header {
+	border-bottom: 0px !important;
+  padding-bottom: 0px !important;
+}
+      
+.page-header, .page-body {
+	font-family: Roboto;
+}
+
+.page-body {
+  font-size: 12px;
+}
+
+.table-header { 
+	box-shadow: 0 0 0 2px rgb(0, 0, 0) inset;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.title {
+	padding: 20px;
+  margin-left: 190px;
+  font-size: 16px !important;
+}
+
+.table-filters {
+	margin-top: 20px;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  font-weight: 600;
+  text-align: center;
+  padding: 5px
+}
+
+table.table-data thead tr th {
+	padding: 10px 6px; 
+	background-color: #C1C1C1;
+  border-left: 2px solid #C1C1C1;
+  border-right: 2px solid #C1C1C1;
+	text-align: center; 
+	font-weight: bold; 
+	color: #000;
+  border: 2px solid #000;
+}
+      
+table.table-data tbody tr td {
+	padding: 10px 6px;
+	text-align: center;
+  border: 2px solid #000;
+  font-weight: 600;
+}
+      
+.table-data { 
+	border: 0px;
+}
+
+.table-data-title-1, .table-data-title-2 {
+  color: #FFF !important;
+}
+
+.table-data-title-1 {
+  background-color: #3075B4 !important;
+  border-left: 2px solid #3075B4 !important;
+  border-right: 2px solid #3075B4 !important;
+}
+
+.table-data-title-2 {
+  background-color: #3298FD !important;
+  border-left: 2px solid #3298FD !important;
+  border-right: 2px solid #3298FD !important;
+}
+
+table-data-total {
+  border: 2px solid #000;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+      
+.flex {
+	display: flex;
+}
+    
+.flex-1 {
+	flex: 1
+}
+    
+.flex-2 {
+	flex: 2
+}
+    
+.left {
+	text-align: left;
+}
+
+.no-border {
+  border: 0px !important;
+}
