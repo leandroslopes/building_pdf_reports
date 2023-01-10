@@ -2,9 +2,9 @@
 
 In this repository you will find files to use in the ServiceNow instance to generate custom PDF reports, which you can use and change to your requirements.
 
-<p>
-<strong>A tutorial link will soon be available for you to use these files to generate your PDF reports.</strong>
-</p>
+## Article showing how to use these artifacts for PDF report generation
+
+* <a href="https://www.servicenow.com/community/br-brazil/building-a-pdf-report-using-pdfgenerationapi/ta-p/2436540" target="_blank" alt="Community ServiceNow Article">Community ServiceNow Article</a>
 
 ## Screeshot
 
